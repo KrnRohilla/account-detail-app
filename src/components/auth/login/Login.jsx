@@ -5,7 +5,7 @@ import axios from "axios";
 import { Base_URL } from '../../../constanst';
 import toast from 'react-hot-toast';
 
-const Login = ()=>{
+const Login = (props)=>{
     const[state, setState] = useState({
         email:"",
         password:""
@@ -36,6 +36,7 @@ const Login = ()=>{
             const { token, user } = res.data.data;
             localStorage.setItem("token", token);
             localStorage.setItem("email", user.email);
+            props.setRoute("account")
             toast.success("You Are Logged In Successfully.",{
                 duration: 4000,
                 position: 'top-right',
@@ -68,7 +69,7 @@ const Login = ()=>{
             placeholder="password"
             size="sm"
             variant="outlined"/>
-            <Button onClick={onSubmitHandler}>Login</Button>
+            <Button className='Btn3' onClick={onSubmitHandler}>Login</Button>
         </div>
     )
 }
