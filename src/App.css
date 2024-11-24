@@ -16,12 +16,12 @@
   left: 37rem;
   top: -6rem;
   color: #000000;
-  background-color: whitesmoke;
+  background-color: rgba(102, 133, 238, 0.719)
 
 }
 .App .Btn:hover{
   color: white;
-  background-image: linear-gradient(#8e0e00,#1f1c18);
+  background-image: linear-gradient(#314755,#26a0da);
 }
 .login{
   display: flex;
@@ -29,10 +29,13 @@
   justify-content: space-between;
   height: 320px;
   width: 370px;
-  border: 1px solid transparent;
-  background-image: linear-gradient(#000000,#434343);
-  padding: 20px;
+  border: 1px solid #26a0da;
+  background-color: whitesmoke;
+  padding: 40px;
   border-radius: 10px;
+  position: relative;
+  left: 0.9rem;
+  top: -1rem;
 }
 .account{
   position: relative;
@@ -59,8 +62,8 @@
   justify-content: space-between;
   height: 410px;
   width: 300px;
-  border: 1px solid transparent;
-  background-color: #eeeeee;
+  border: 1px solid  #26a0da;
+  background-color:whitesmoke;
   padding: 20px;
   border-radius: 10px;
 }
@@ -68,19 +71,19 @@
   font-size: 15px;
   font-weight: bold;
   color: #000000;
-  background-color: #757575;
+  background-color: rgba(102, 133, 238, 0.719)
 }
 .Btn2:hover{
   color: white;
-  background-image: linear-gradient(#8e0e00,#1f1c18);
+  background-image: linear-gradient(#314755,#26a0da);
 }
 .login .Btn3{
   font-size: 15px;
   font-weight: bold;
   color: #000000;
-  background-color: #757575;
+  background-color: rgba(102, 133, 238, 0.719)
 }
 .Btn3:hover{
   color: white;
-  background-image: linear-gradient(#76b852,#8dc26f);
+  background-image: linear-gradient(#314755,#26a0da);
 }
