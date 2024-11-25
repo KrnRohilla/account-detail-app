@@ -57,18 +57,28 @@ const Login = (props)=>{
             name='email'
             value={state.email}
             onChange={onChangeHandler}
-            color="neutral"
-            placeholder="Email"
-            size="sm"
-            variant="outlined"/>
+            color="primary"
+            disabled={false}
+            placeholder="Email..."
+            size="md"
+            variant="outlined"
+            sx={{
+                "--Input-minHeight": "40px",
+              }}
+            />
             <Input
             name='password'
             value={state.password}
             onChange={onChangeHandler}
-            color="neutral"
-            placeholder="password"
-            size="sm"
-            variant="outlined"/>
+            color="primary"
+            disabled={false}
+            placeholder="Password..."
+            size="md"
+            variant="outlined"
+            sx={{
+                "--Input-minHeight": "40px"
+              }}
+            />
             <Button className='Btn3' onClick={onSubmitHandler}>Login</Button>
         </div>
     )

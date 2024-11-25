@@ -80,7 +80,7 @@ const CreateAccount = (props)=>{
             name='accountName'
             value={state.accountName}
             onChange={onChangeHandler}
-            color="neutral"
+            color="primary"
             placeholder="AccountName"
             size="sm"
             variant="outlined"/>
@@ -88,7 +88,7 @@ const CreateAccount = (props)=>{
             name='email'
             value={state.email}
             onChange={onChangeHandler}
-            color="neutral"
+            color="primary"
             placeholder="Email"
             size="sm"
             variant="outlined"/>
@@ -96,7 +96,7 @@ const CreateAccount = (props)=>{
             name='password'
             value={state.password}
             onChange={onChangeHandler}
-            color="neutral"
+            color="primary"
             placeholder="password"
             size="sm"
             variant="outlined"/>
@@ -104,7 +104,7 @@ const CreateAccount = (props)=>{
             name='description'
             value={state.description}
             onChange={onChangeHandler}
-            color="neutral"
+            color="primary"
             placeholder="Description"
             size="sm"
             variant="outlined"/>
