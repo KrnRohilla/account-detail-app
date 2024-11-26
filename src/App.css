@@ -6,7 +6,8 @@
   min-width: 1000px;
   height: 103vh;
   overflow-x: hidden;
-  background-image:url(/image/colorful.png);
+  background-image:url(/image/Untitled\ design.png);
+  background-repeat: no-repeat;
 }
 .App .Btn{
   width: 100px;
@@ -34,8 +35,8 @@
   border-radius: 10px;
   position: relative;
   margin-top: 100px;
-  left: 0.9rem;
-  top: -4rem;
+  left: 20rem;
+  top: -3rem;
 }
 .account{
   position: relative;

@@ -7,6 +7,7 @@ import Login from './components/auth/login/Login';
 import Account from './components/account/Account';
 import { useEffect, useState } from 'react';
 import Button from '@mui/joy/Button';
+import { RiShutDownLine } from "react-icons/ri";
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
   }
   return (
       <div className="App">
-        <Button className="Btn" onClick={(Logout)}>Logout</Button>
+        <Button className="Btn" onClick={(Logout)}><RiShutDownLine />Logout</Button>
       {route === "login" && <Login setRoute={setRoute}/>}
       {route === "account" && <Account/>}
       <Toaster/>

@@ -4,6 +4,7 @@ import { useState } from 'react';
 import axios from "axios";
 import { Base_URL } from '../../../constanst';
 import toast from 'react-hot-toast';
+import { RiLoginCircleLine } from "react-icons/ri";
 
 const Login = (props)=>{
     const[state, setState] = useState({
@@ -79,7 +80,7 @@ const Login = (props)=>{
                 "--Input-minHeight": "40px"
               }}
             />
-            <Button className='Btn3' onClick={onSubmitHandler}>Login</Button>
+            <Button className='Btn3' onClick={onSubmitHandler}><RiLoginCircleLine />Login</Button>
         </div>
     )
 }
